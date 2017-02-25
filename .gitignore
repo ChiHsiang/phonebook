@@ -5,6 +5,8 @@
 *.list
 *.swp
 *.bak
+*.png
+*.data
 phonebook_opt
 phonebook_orig
 calculate
