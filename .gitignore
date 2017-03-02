@@ -9,8 +9,11 @@
 *.data
 phonebook_opt
 phonebook_orig
+phonebook_hash
 calculate
 orig.txt
 opt.txt
 output.txt
+hash.txt
+slots.txt
 runtime.png
