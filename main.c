@@ -128,8 +128,8 @@ int main(int argc, char *argv[])
     for (i = 0; i < TABLE_SIZE; i++) {
         if(e[i])
             free_list(e[i]->pNext);
-        free(pHead);
     }
+    free(pHead);
 #else
     entry *tmp;
     while ((tmp = pHead) != NULL) {

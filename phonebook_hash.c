@@ -5,7 +5,6 @@
 
 #include "phonebook_hash.h"
 
-/* original version */
 entry *findName(char lastName[], entry *pHead[])
 {
     unsigned int n = BKDRhash_v1(lastName);
